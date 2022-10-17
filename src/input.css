@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.col1{
+    letter-spacing: 1.4px;
+    line-height: 54px;
+}
+.para{
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+.col{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
