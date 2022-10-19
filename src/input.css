@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.main{
+    background-image: url(../images/banner-bg.png);
+    
+}
+.btn{
+    @apply max-w-xs text-sm text-white  rounded-full p-3 uppercase  cursor-pointer  my-6 bg-pink-600  hover:bg-purple-600
+}
+.imgsec{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
